@@ -13,6 +13,9 @@ body{
 	margin:auto;
 	overflow: hidden;
 }
+.container h1{
+	text-align: center;
+}
 
 #main-header{
 	background-color: coral;
