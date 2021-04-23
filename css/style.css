@@ -34,7 +34,6 @@ body{
 
 }
 
-/* home about services contact 在一行。*/
 #navbar li{
 	display:inline;
 }
@@ -47,12 +46,8 @@ body{
 }
 
 #showcase{
-	/*background-image: url('../images/showcase.jpg');*/
 	background-image: url('https://britasia.tv/wp-content/uploads/2019/02/bollywood-collage-220151208193011.jpg');
 	background-position: center right;
-	/*当只设置 height时，你缩小网页，字会跑出框框
-		所以用 min-height 这样能产生 responsive的效果
-	*/
 	min-height:300px;
 	margin-bottom:30px;
 	text-align: center;
@@ -90,8 +85,6 @@ body{
 	margin-top:40px;
 }
 
-
-/*使main和sidebar部分随着网页尺寸改变而改变，更responsive*/
 @media(max-width: 600px){
 	#main{
 		width:100%;
